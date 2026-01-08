@@ -1,0 +1,22 @@
+[
+  {
+    "proxy": "208.67.222.222:80",
+    "status": "failed",
+    "error": "HTTP 404"
+  },
+  {
+    "proxy": "208.67.220.220:80",
+    "status": "failed",
+    "error": "HTTP 404"
+  },
+  {
+    "proxy": "1.1.1.1:3128",
+    "status": "failed",
+    "error": "HTTPConnectionPool(host='1.1.1.1', port=3128): Max retries exceeded with url: http://httpbin.org/ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPConnection(host='1.1.1.1', port=3128) at 0x1046b9400>, 'Connection to 1.1.1.1 timed out. (connect timeout=10)')))"
+  },
+  {
+    "proxy": "8.8.8.8:8080",
+    "status": "failed",
+    "error": "HTTPConnectionPool(host='8.8.8.8', port=8080): Max retries exceeded with url: http://httpbin.org/ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPConnection(host='8.8.8.8', port=8080) at 0x104693ee0>, 'Connection to 8.8.8.8 timed out. (connect timeout=10)')))"
+  }
+]
