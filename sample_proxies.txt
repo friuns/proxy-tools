@@ -1,0 +1,12 @@
+# Sample proxy list for testing
+# Format: ip:port
+# These are example proxies - test them yourself
+
+# Some common test proxies (may not work)
+8.8.8.8:8080
+1.1.1.1:3128
+208.67.222.222:80
+208.67.220.220:80
+
+# Local proxy for testing (if you have one running)
+# 127.0.0.1:8080
